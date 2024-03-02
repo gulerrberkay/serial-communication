@@ -89,6 +89,7 @@ void sendFile(FILE* file, int serialPort) {
 
 }
 
+// Main func
 int main(int argc, char* argv[]) {
     char* portName = NULL;
     char* filePath = NULL;
